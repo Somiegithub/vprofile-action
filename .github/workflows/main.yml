@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Code checkout
-      uses: actions/chekcout@v4
+      uses: actions/checkout@v4
 
     - name: Build and Upload Image to ECR
       uses: appleboy/docker-ecr-action@master
